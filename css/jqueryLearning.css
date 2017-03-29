@@ -1,0 +1,58 @@
+#target{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+}
+#main{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+.info{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+}
+#hideShow{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.number {
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+}
+table, td{
+    border:1px solid black;
+}
+#para{
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.removeClass{
+    display: none;
+}
+.addClass{
+    display: inline-block;
+}
+#formDiv{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+#viewDiv{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+}
+#btn17{
+    display: none;
+}

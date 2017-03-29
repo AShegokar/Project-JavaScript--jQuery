@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="../css/jqueryLearning.css">
+    <script src="../jquery-3.1.1.js"></script>
+</head>
+
+
+<!--Q1-->
+<div id="target"></div>
+<button id="btn1">Q1.Click to change color</button>
+<!--Q2-->
+<button id="btn2">Q2.HTML</button>
+<br><br>
+
+<!--Q3-->
+<div id="main">
+    <span>Click Button to change text</span>
+</div>
+<button id="btn3">Q3.Text Change</button>
+<br><br>
+<!--Q4, 5-->
+<div class="info"></div>
+<div class="info" id="target1"></div>
+<div class="info">
+    <p>Hi</p>
+    <p>Hello</p>
+    <p>There</p>
+</div>
+<br>
+<button id="btn4">Q4.Color</button>
+<button id="btn5">Q5.Hide</button>
+<br><br>
+<!--Q6-->
+<div id="hideShow">
+    <ul id="content">
+        <li>How are you?</li>
+        <li>I am fine.</li>
+        <li>Nice to talk to you.</li>
+    </ul>
+</div>
+<br>
+<button id="btn6">Q6.Hide</button>
+<button id="btn7">Q6.Show</button>
+<br><br>
+<!--Q7-->
+<section >
+    <div class="number"></div>
+    <div class="number"></div>
+    <div class="number"></div>
+</section>
+<button id="btn8">Q7.Length</button>
+<!--Q8-->
+<div>
+    <h1 class="remove">Hello Sahil</h1>
+    <h2>Hello Ajinkya</h2>
+    <h3 class="remove">Hello Sumit</h3>
+    <h4 class="remove">Hello Anup</h4>
+    <h5 class="remove">Hello Manoj</h5>
+</div>
+<button id="btn9">Q8.Remove</button>
+<br><br>
+<!--Q9-->
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Address</td>
+        <td>Phone</td>
+        <td>Sex</td>
+    </tr>
+    <tr>
+        <td>Ajinkya</td>
+        <td>25</td>
+        <td>kingsville</td>
+        <td>3612281208</td>
+        <td>M</td>
+    </tr>
+    <tr>
+        <td>Anup</td>
+        <td>23</td>
+        <td>Houston</td>
+        <td>3245891245</td>
+        <td>M</td>
+    </tr>
+    <tr>
+        <td>Dipali</td>
+        <td>26</td>
+        <td>Austria</td>
+        <td>2145893564</td>
+        <td>F</td>
+    </tr>
+    <tr>
+        <td>Sumit</td>
+        <td>27</td>
+        <td>Chicago</td>
+        <td>1238567426</td>
+        <td>M</td>
+    </tr>
+    <tr>
+        <td>Manoj</td>
+        <td>31</td>
+        <td>California</td>
+        <td>3612284569</td>
+        <td>M</td>
+    </tr>
+    <tr>
+        <td>Jesi</td>
+        <td>36</td>
+        <td>Corpus</td>
+        <td>3516587453</td>
+        <td>F</td>
+    </tr>
+</table>
+<button id="btn10">Q9.Click to Change color</button>
+<br><br>
+<!--Q10-->
+
+<input type="checkbox" id="checkAll" />Q10.Click to check all/ uncheck all.
+    <p>
+        <input type="checkbox" class="check" />Ajinkya <br>
+        <input type="checkbox" class="check" />Anup <br>
+        <input type="checkbox" class="check" />Sumit <br>
+        <input type="checkbox" class="check" />Sahil <br>
+    </p>
+<!--Q11-->
+<button id="btn11">Q11.Click (Validate)</button>
+<br>
+<form action="" id="form">
+<select name="" >
+    <option value=""></option>
+    <option value="Volvo">Volvo</option>
+    <option value="Audi">Audi</option>
+</select>
+<select name="">
+    <option value=""></option>
+    <option value="MRF">MRF</option>
+    <option value="CEAT">CEAT</option>
+</select>
+<select name="">
+    <option value=""></option>
+    <option value="LG">LG</option>
+    <option value="IPhone">IPhone</option>
+</select>
+</form>
+<div id="validate"></div>
+<br><br>
+<!--Q12-->
+<div id="para">
+    <p>Are you there?</p>
+    <p>Welcome to USA</p>
+    <p>Welcome to USA</p>
+    <p>Welcome to USA</p>
+    <p>Welcome to USA</p>
+</div>
+<button id="btn12">Q12.Para</button>
+<br><br>
+<!--Q13-->
+<div id="protek">
+<a href="https://www.facebook.com/">Facebook</a><br>
+<a href="https://mail.google.com/">GMail</a><br>
+<a href="https://www.yahoo.com/">Yahoo</a><br>
+<a href="https://www.youtube.com/">Youtube</a><br>
+<a href="http://www.pro-tekconsult/">Pro-tek</a><br>
+<span></span><br>
+<button id="btn13">Q13.Check URL</button>
+<button id="btn14" disabled="disabled">Q13.Add Link</button>
+</div>
+<br>
+<!--Q14.-->
+<div>
+
+    <fieldset>
+    <p><label for="fname">First Name</label><input type="text" id="fname" placeholder="First Name " /><span class="removeClass">There is error in First Name </span>
+        <label for="lname">Last Name</label><input type="text" id="lname" placeholder="Last Name"/><span class="removeClass">There is error in Last Name</span></p>
+    <p><label for="email"></label><input type="email" id="email" placeholder="xyz@gmail.com" /><span class="removeClass">There is error in Email Name</span></p>
+        <p><label for="password"></label><input type="password" id="password" placeholder="*******" /><span class="removeClass">There is error in password Name</span></p>
+    <select name="" id="select">
+        <option  disabled selected>USA</option>
+        <option value="IND">IND</option>
+        <option value="AUS">AUS</option>
+   </select><span class="removeClass"> </span>
+    <input type="text" placeholder="(334)258-1245"/><span class="removeClass">There is error in password Name</span><br><br>
+    <select typeof="select" name="" id="select2">
+        <option disabled selected>Birth Month</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+    </select>
+        <span class="removeClass"></span>
+    <Select typeof="select" id="select3">
+        <option disabled selected>Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </Select>
+        <span class="removeClass">There is error in password Name</span>
+    <select typeof="select" name="" id="select4" >
+        <option disabled selected>Year</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+    </select><span class="removeClass">There is error in password Name</span><br><br>
+    <select typeof="select" name="" id="select5">
+        <option  disabled selected>Gender (Optional)</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select><span class="removeClass">There is error in password Name</span><br><br>
+    <button id="btn15">Q14.Continue</button>
+    </fieldset>
+</div><br><br>
+<!--Q15.-->
+<div id="formDiv"><br>
+    First Name<input type="text"  placeholder="First Name " /><span class="removeClass">Error</span><br><br>
+    Last Name<input type="text" placeholder="Last Name " /><span class="removeClass">Error</span><br>
+
+      <p> <select name="">
+            <option disabled selected>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option></select><span class="removeClass">Error</span>
+        <select name="">
+            <option disabled selected>State</option>
+            <option value="Texas">Texas</option>
+            <option value="Maharashtra">Maharashtra</option></select><span class="removeClass">Error</span></p>
+    <button id="btn16">Q15.Save</button>
+</div>
+    <div id="viewDiv">
+
+        <button id="btn17">Edit</button>
+    </div><br><br>
+<!--Q16  -->
+<button id="btn18">Q16.-</button><span id="collapse">Collapse</span>
+    <ol>
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Mercedes</li>
+        </ol><br><br>
+<!--Q17.    -->
+<table>
+    <tr>
+        <td>num1</td>
+        <td>oper</td>
+        <td>num2</td>
+        <td>equls</td>
+        <td>answer</td>
+    </tr>
+    <tr>
+        <td id="f_1">42</td>
+        <td>+</td>
+        <td id="f_2">12</td>
+        <td>=</td>
+        <td></td>
+    </tr>
+</table>
+    <button id="btn19">Q17.Sum</button>
+
+<script src="../javascript/jqueryLearning.js"></script>
+</body>
+</html>
